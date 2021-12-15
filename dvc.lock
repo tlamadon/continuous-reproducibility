@@ -20,9 +20,9 @@ stages:
       md5: 212b66bab376bab55d2dea3f2e5b0b22
       size: 40136
     - path: estimate.py
-      md5: 666ad4de585ddc6d07e599164f51bafd
-      size: 170
+      md5: 8be336c6aade159ea73ed28d4e2c691d
+      size: 181
     outs:
     - path: res.txt
-      md5: 7d43b63d82047272dc674c2635cb7360
-      size: 32
+      md5: 17406cbed684525837320aae1631cffe
+      size: 58
