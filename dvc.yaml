@@ -6,3 +6,11 @@ stages:
     - data.csv
     outs:
     - data_clean.csv
+  estimate:
+    cmd: python estimate.py
+    deps:
+    - data_clean.csv
+    - estimate.py
+    outs:
+    - res.txt:
+        cache: false

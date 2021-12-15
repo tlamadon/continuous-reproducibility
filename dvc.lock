@@ -13,3 +13,16 @@ stages:
     - path: data_clean.csv
       md5: 212b66bab376bab55d2dea3f2e5b0b22
       size: 40136
+  estimate:
+    cmd: python estimate.py
+    deps:
+    - path: data_clean.csv
+      md5: 212b66bab376bab55d2dea3f2e5b0b22
+      size: 40136
+    - path: estimate.py
+      md5: 666ad4de585ddc6d07e599164f51bafd
+      size: 170
+    outs:
+    - path: res.txt
+      md5: 7d43b63d82047272dc674c2635cb7360
+      size: 32
